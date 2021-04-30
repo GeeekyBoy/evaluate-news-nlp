@@ -1,7 +1,7 @@
 language: node_js
 script: npm run test
 node_js:
-  - node
+  - lts/*
 notifications:
   webhooks:
     urls:
