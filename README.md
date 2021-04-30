@@ -1,5 +1,7 @@
 # News Sentiment Analysis
 
+[![Build Status](https://travis-ci.com/GeeekyBoy/evaluate-news-nlp.svg?branch=main)](https://travis-ci.com/GeeekyBoy/evaluate-news-nlp)
+
 ## Overview
 
 News Sentiment Analysis is a web application that demonsistrates how to use webpack in building web applications and exporting them to few compact files.
