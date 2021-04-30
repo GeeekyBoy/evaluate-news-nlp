@@ -29,7 +29,7 @@
     "clean-webpack-plugin": "latest",
     "css-loader": "latest",
     "html-webpack-plugin": "latest",
-    "jest": "latest",
+    "jest": "next",
     "mini-css-extract-plugin": "latest",
     "node-sass": "latest",
     "optimize-css-assets-webpack-plugin": "latest",
