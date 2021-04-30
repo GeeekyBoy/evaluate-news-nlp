@@ -1,0 +1,40 @@
+{
+  "name": "evaluate-news-nlp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/server/index.js",
+    "build-prod": "webpack --config webpack.prod.js",
+    "build-dev": "webpack serve --config webpack.dev.js --open"
+  },
+  "keywords": [],
+  "author": "GeeekyBoy",
+  "license": "AGPL-3.0",
+  "description": "",
+  "dependencies": {
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "node-fetch": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest"
+  },
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/plugin-transform-runtime": "latest",
+    "@babel/runtime": "latest",
+    "@babel/preset-env": "latest",
+    "babel-loader": "latest",
+    "clean-webpack-plugin": "latest",
+    "css-loader": "latest",
+    "html-webpack-plugin": "latest",
+    "jest": "latest",
+    "mini-css-extract-plugin": "latest",
+    "node-sass": "latest",
+    "optimize-css-assets-webpack-plugin": "latest",
+    "sass-loader": "latest",
+    "webpack-dev-server": "v4.0.0-beta.2",
+    "workbox-webpack-plugin": "latest"
+  }
+}

@@ -1,0 +1,27 @@
+@import 'theme';
+
+section#resultsSection {
+    border-radius: 20px 20px 0 0;
+    &.waiting {
+        background-image: $basic-gradient;
+    }
+    &.positive {
+        background-image: $positive-gradient;
+    }
+    &.negative, &.error {
+        background-image: $danger-gradient;
+    }
+    &.neutral {
+        background-image: $neutral-gradient;
+    }
+    p#results {
+        font-family: sans-serif;
+        font-weight: bold;
+        color: #FFFFFF;
+        font-size: 1.3em;
+        text-align: center;
+        white-space: break-spaces;
+        line-height: 1.3;
+        margin: 10px;
+    }
+}
